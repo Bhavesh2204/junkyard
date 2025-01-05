@@ -1,0 +1,39 @@
+.text {
+  @apply h-0 text-lg font-semibold text-blue-500;
+}
+
+.title {
+  @apply text-5xl font-bold text-gray-800 my-3 ;
+}
+
+.paragraph {
+  @apply text-base font-semibold text-gray-500 max-w-screen-sm mx-auto;
+}
+
+.dark .title {
+  @apply dark:text-gray-200;
+}
+
+.dark .paragraph {
+  @apply dark:text-gray-400;
+}
+
+.icons {
+  @apply text-4xl font-semibold text-blue-500;
+}
+
+.iconBg {
+  @apply w-1/12 h-1 bg-blue-300 rounded-full bg-opacity-20 flex items-center justify-center p-5 mx-auto my-10;
+}
+
+.socialIcons{
+  @apply text-gray-400 dark:text-white text-base;
+}
+
+.socialIcons:hover{
+  @apply text-blue-500;
+}
+
+.footer{
+  @apply text-gray-300 text-base text-left font-semibold;
+}
